@@ -9,4 +9,11 @@ For e.g. X = 441 for the covariance/precision feature. To calculate the Noise/Me
 the top 200 out of 3456 proteins from Deepcov dataset was selected based on max L criteria and mean of those features were calculated.
 Mean was calculated using the numpy method nanmean. Here we initialize the mean matrix with np.nan to overcome the ‘zero’s affecting the average problem’,
 since every chosen protein (among the 200) will be of varying lengths, so when a value at a particular place in a sequence is zero,
-this could create a bias in a particular place in a protein sequence. 
+this could create a bias in a particular place in a protein sequence.
+
+### Note - Version_1_0
+
+```bash
+
+Weights file released
+

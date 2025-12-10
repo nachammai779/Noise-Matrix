@@ -11,9 +11,6 @@ Mean was calculated using the numpy method nanmean. Here we initialize the mean 
 since every chosen protein (among the 200) will be of varying lengths, so when a value at a particular place in a sequence is zero,
 this could create a bias in a particular place in a protein sequence.
 
-### Note - Version_1_0
 
-```bash
 
-Weights file released
 
